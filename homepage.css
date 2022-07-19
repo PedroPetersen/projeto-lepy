@@ -43,6 +43,11 @@ img[alt="logo da lepy"] {
  img[alt="predios"] {
     padding-left: 570px;
  }
+ main{
+    height: 940px;
+ }
+
+
  
  footer {
 	text-align: center;
