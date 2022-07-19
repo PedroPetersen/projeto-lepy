@@ -4,7 +4,6 @@
     <link rel="icon" type="image/png" href="android-chrome-512x512.png">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="homepage.css">
-    <script src="homepage.js"></script>
     <title>Home - Lepy</title>
 </head>
 <header>
@@ -21,6 +20,49 @@
     </div>
 </header>
 <main>
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- End Radio Buttons-->
+
+            <!-- Slide Image-->
+                 <div class="slide first">
+                     <img src="imagens/construction-in-progress.jpg" alt="imagem1"/> 
+                </div>
+                <div class="slide">
+                    <img src="imagens/foto boa lepy.jpg" alt="imagem2"/>
+                </div>
+                <div class="slide">
+                    <img src="imagens/pexels-bidvine-1249611.jpg" alt="imagem3"/>
+                </div>
+                <div class="slide">
+                    <img src="imagens/pexels-jeshootscom-834892.jpg" alt="imagem4"/>
+                </div>
+                
+            <!-- End Slide Image-->
+
+            <!-- Navigation auto-->
+            <div class="navigation-auto"> 
+               <div class="auto-btn1"></div> 
+               <div class="auto-btn2"></div>
+               <div class="auto-btn3"></div>
+               <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+</main>
 </main>
 <footer>
     <div class="caixa2">
@@ -28,5 +70,6 @@
     <p class="copyright">© CopyrightLepy</p>
     </div>
 </footer>
+<script src="homepage.js"></script>
 </body>
 </html>
