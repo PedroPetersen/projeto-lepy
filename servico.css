@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+header {
+	background: lightgrey;
+	padding: 10px 0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "Poppins";
+}
+.caixa {
+	position: relative;
+	width: 1800px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+    left: 1000px;
+    padding-left: 300px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+    color: whitesmoke;
+	font-size: 20px;
+    font-weight: lighter;
+	text-decoration: none;
+    border-bottom: 1px solid #1a7166;
+}
+nav a:hover {
+	font-size: 28px;
+    border-bottom: 5px solid #1a7166;
+    transition: 1s;
+}
+img[alt="logo da lepy"] {
+    height: 120px;
+    padding-left: 30px;
+ }
+ img[alt="predios"] {
+    padding-left: 570px;
+ }
+ main{
+    height: 650px;
+ }
+ .container{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ .container .card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+ }
+ .container .card:hover img{
+    left: 85%;
+    height: 420px;
+ }
+ .container .card .content{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+ }
+ .container .card:hover .content
+ {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+ }
+ .container .card .content h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+    text-decoration: none;
+ }
+ .container .card .content p{
+    color: black;
+    text-decoration: none;
+ }
+ .container .card .content a{
+    position: relative;
+    color: #fff;
+    background-color: #1a7166;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+ }
+ @media(max-width: 991px){
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+    .container .card:hover{
+        height: 600px;
+    }
+    .container .card:hover img{
+        left: 50%;
+        height: 350px;
+    }
+    .container .card .content{
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+ }
+ .box{
+   text-align: center;
+   padding-top: 100px;
+ }
+ .button{
+   font-size: 1em;
+   padding: 15px 40px;
+   color: #FFFFFF;
+   text-decoration: none;
+   cursor: pointer;
+   transition: all 0.3s ease-out;
+   background: #403e3d;
+   border-radius: 50px;
+ }
+ .overlay{
+   position: fixed;
+   top: 0px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgb(0,0,0, 0.8);
+   transition: 500ms;
+   visibility: hidden;
+   opacity: 0;
+ }
+ .overlay:target{
+   visibility: visible;
+   opacity: 1;
+ }
+ .wrapper{
+   margin: 70px auto;
+   padding: 20px;
+   background: #e7e7e7;
+   border-radius: 5px;
+   width: 30%;
+   height: 65%;
+   position: relative;
+   transition: all 5s ease-in-out;
+ }
+ .wrapper h2{
+   margin-top: 0;
+   color: #333;
+ }
+ .wrapper.close{
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   transition: all 200ms;
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #333;
+ }
+ ;.wrapper .content1{
+   max-height: 30%;
+   overflow: auto;
+ }
+ form{
+   display: flex;
+   flex-direction: column;
+   padding-left: 15px;
+   width: 90%;
+   max-width: 600px;
+   border-radius: 10px;
+   margin-left: 4%;
+   height: 420px;
+ }
+ form h3{
+   color: #555;
+   font-weight: 800;
+   font-size: 22pt;
+   margin-bottom: 20px;
+ }
+ form input, form textarea{
+   border: 0;
+   margin: 10px 0;
+   padding: 20px;
+   outline: none;
+   background: #f5f5f5;
+   font-size: 16px;
+ }
+ form input{
+   font-family: "Arial";
+ }
+ form button{
+   padding: 15px;
+   background:#1a7166 ;
+   color: white;
+   font-size: 18px;
+   border: 0;
+   outline: none;
+   text-decoration: none;
+   font-weight: 700;
+   cursor: pointer;
+   width: 110px;
+   margin: 20px auto 0;
+   border-radius: 30px;
+ }
+ 
+ footer {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 20px 0;
+}
+img[alt="logo da lepy2"] {
+    height: 100px;
+ }
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
