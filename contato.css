@@ -1,0 +1,130 @@
+header {
+	background: lightgrey;
+	padding: 10px 0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.caixa {
+	position: relative;
+	width: 1800px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+    left: 1000px;
+    padding-left: 300px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+    color: whitesmoke;
+	font-size: 20px;
+    font-weight: lighter;
+	text-decoration: none;
+    border-bottom: 1px solid #1a7166;
+}
+nav a:hover {
+	font-size: 28px;
+    border-bottom: 5px solid #1a7166;
+    transition: 1s;
+}
+img[alt="logo da lepy"] {
+    height: 120px;
+    padding-left: 30px;
+ }
+ img[alt="predios"] {
+    padding-left: 570px;
+ }
+ main{
+    height: 940px;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.titulo{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 42pt;
+    padding-top: 3%;
+    margin-left: 2%;
+    border-bottom: 1px solid #1a7166;
+    width: 13%;
+}
+.titulo-grid{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 42pt;
+    padding-top: 10%;
+    margin-left: 20%;
+    width: 40%;
+}
+.descricao-grid{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 22pt;
+    margin-left: 20%;
+    width: 110%;
+    padding-top: 4%;
+}
+img[alt="celular-contato"] {
+   margin-top: 7%;
+   margin-left: 20%;
+ }
+ .descricao-grid2{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 22pt;
+    margin-left: 38%;
+    padding-top: 20.5%;
+}
+.descricao-grid3{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 22pt;
+    margin-left: 38%;
+    padding-top: 2%;
+}
+.descricao-grid4{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 22pt;
+    margin-left: 38%;
+    padding-top: 2%;
+}
+.descricao-grid5{
+    font-family: "LTC Twentieth Century W00";
+    font-size: 22pt;
+    margin-left: 38%;
+    padding-top: 2%;
+}
+.face{
+    margin-left: 350px;
+    margin-top: 20px;
+    display: flex;
+}
+.insta{
+   margin-top: 15px;
+}
+img[alt="logos1"]{
+    height: 50px;
+ }
+ img[alt="logos2"] {
+    height: 58px;
+ }
+ footer {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 20px 0;
+}
+img[alt="logo da lepy2"] {
+    height: 100px;
+ }
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
